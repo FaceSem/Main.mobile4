@@ -3066,8 +3066,9 @@ body {
 
     .logo-mask {
         width: 90vw;
-        margin-top: 5vw;
+        margin-top: 8vw;
         margin-left: -3vw;
+        margin-bottom: 3vw;
     }
 
     .spoiler-white-footer2 {
