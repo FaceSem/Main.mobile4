@@ -2285,7 +2285,7 @@ body {
     }
 
     .spoilers {
-        margin-top: 30px;
+        margin-top: 0;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -2303,7 +2303,7 @@ body {
 
     .bgr-grey {
         background-color: #fcfcfc;
-        padding-bottom: 35vw;
+        padding-bottom: 25vw;
     }
 
     .spoiler-header {
@@ -2878,7 +2878,7 @@ body {
     .curve-hello {
         width: 100vw;
         height: 20vw;
-        margin-top: -15vw;
+        margin-top: 5vw;
         margin-bottom: -4vw;
         background-color: #fcfcfc;
     }
@@ -3010,7 +3010,7 @@ body {
 
     .click-violet {
         margin-top: -13vw;
-        padding-bottom: 7vw;
+        padding-bottom: 9vw;
         background-color: #fafaf9;
         z-index: 999;
         padding-top: 5vw;
@@ -3118,7 +3118,7 @@ body {
     }
 
     .circle2 {
-        top: -7vw;
+        top: -10vw;
         left: 43.2vw;
     }
 
@@ -4041,6 +4041,7 @@ body {
         }
     }
 
+    /* iPhone XR */
     @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
@@ -4053,6 +4054,23 @@ body {
             top: 35vh!important;
         }
     }
+
+    /* iPhone X */
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .facial-sheet-img {
+            top: 34.5vh;
+            left: 16vw;
+            width: 67vw;
+            height: 86vw;
+        }
+
+        .white-head {
+            margin-top: -20vw;
+        }
+     }
 
     @media screen and (max-width: 375px) {
         .bubble {
